@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(BACKGROUND.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+nav.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 14% 20px 14%;
+
+}
+.LINKS > UL{
+    display: flex;
+    align-items: center;
+    gap: 30PX;
+    list-style: NONE;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo i{
+    margin-right: 10px;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+}
+.logo h2{
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+#open_dc{
+    border: none;
+    width: 110px;
+    height: 39px;
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    transition: .2s;
+    letter-spacing: .5px;
+}
+#open_dc:hover{
+    color: rgb(75, 75, 211);
+}
+.hero-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15% 0 15%;
+}
+.hero-content{
+    position: relative;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    left: 120px;
+}
+.hero-content h1{
+    margin-top: 80px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 1000;
+}
+.hero-content p{
+    color: #fff;
+    font-size: 25px;
+}
+.MENU{
+    display: NONE;
+}
